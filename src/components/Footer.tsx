@@ -18,13 +18,13 @@ const Footer = () => {
     {
       icon: Phone,
       label: 'Telefon',
-      value: '+49 (0) 3562 123456',
-      href: 'tel:+493562123456'
+      value: '+49 (0) 176 45850204',
+      href: 'tel:+4917645850204'
     },
     {
       icon: MapPin,
       label: 'Adresse',
-      value: 'Vereinsheim Forst, 03222 Lübbenau',
+      value: 'Weiherer Str. 31, 76694 Forst',
       href: '#'
     }
   ];
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
-              Wir sind ein Verein für Liebhaber klassischer Automobile. Bei uns steht die 
+              Wir sind ein Verein für Liebhaber klassischer Schleppet und Automobile. Bei uns steht die 
               Gemeinschaft und die Leidenschaft für historische Fahrzeuge im Mittelpunkt.
             </p>
             <div className="flex space-x-4">
