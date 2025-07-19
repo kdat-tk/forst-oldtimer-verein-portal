@@ -126,9 +126,9 @@ const Footer = () => {
               © {new Date().getFullYear()} Oldtimerfreunde Forst e.V. Alle Rechte vorbehalten.
             </div>
             <div className="flex items-center space-x-6 text-sm text-white/60">
-              <a href="#" className="hover:text-vintage-gold transition-colors">Impressum</a>
-              <a href="#" className="hover:text-vintage-gold transition-colors">Datenschutz</a>
-              <a href="#" className="hover:text-vintage-gold transition-colors">Vereinssatzung</a>
+              <a href="/impressum" className="hover:text-vintage-gold transition-colors">Impressum</a>
+              <a href="/datenschutz" className="hover:text-vintage-gold transition-colors">Datenschutz</a>
+              <a href="/satzung" className="hover:text-vintage-gold transition-colors">Vereinssatzung</a>
             </div>
           </div>
         </div>
