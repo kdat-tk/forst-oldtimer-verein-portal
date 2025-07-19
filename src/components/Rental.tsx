@@ -6,10 +6,10 @@ import bierwagenImage from '@/assets/bierschankwagen.jpg';
 
 const Rental = () => {
   const features = [
-    'Authentischer historischer Bierschankwagen',
+    'Authentischer Bierschankwagen mit Rundum-Theke',
     'Komplett ausgestattet mit Zapfanlage',
     'Professionelle Bedienung auf Wunsch',
-    'Dekoration im Vintage-Stil inklusive',
+    'Dekoration zum Anlass passend',
     'Transport und Aufbau im Preis enthalten',
     'Verschiedene Biersorten verfügbar'
   ];
@@ -74,7 +74,7 @@ const Rental = () => {
               Tradition trifft Moderne
             </h3>
             <p className="text-vintage-leather mb-6">
-              Unser Bierschankwagen bringt authentisches Flair auf jede Veranstaltung. Mit Rundum-Theke und 
+              Unser Bierschankwagen bringt authentisches Flair auf jede (Oldtimer-) Veranstaltung. Mit Rundum-Theke und 
               zwei Schankanlagen ist er der perfekte Blickfang für Ihr Event und ein Grant für frisches und kühles Bier.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-6">
@@ -143,29 +143,25 @@ const Rental = () => {
                   <Phone className="w-5 h-5" />
                   <div>
                     <div className="font-medium">Telefon</div>
-                    <div className="text-white/90">+49 (0) 3562 123456</div>
+                    <div className="text-white/90">+49 (0) 176 45850204</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5" />
                   <div>
                     <div className="font-medium">E-Mail</div>
-                    <div className="text-white/90">vermietung@oldtimerfreunde-forst.de</div>
+                    <div className="text-white/90">info@oldtimerfreunde-forst.de</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Clock className="w-5 h-5" />
                   <div>
                     <div className="font-medium">Erreichbarkeit</div>
-                    <div className="text-white/90">Mo-Fr 18:00-20:00 Uhr</div>
+                    <div className="text-white/90">täglich bis 20:00 Uhr</div>
                   </div>
                 </div>
               </div>
-              <div className="space-y-4">
-                <Button variant="secondary" className="w-full">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  Verfügbarkeit prüfen
-                </Button>
+              <div className="space-y-4">                
                 <Button variant="secondary" className="w-full">
                   <Mail className="w-4 h-4 mr-2" />
                   E-Mail senden
