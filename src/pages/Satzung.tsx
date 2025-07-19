@@ -62,7 +62,7 @@ const Satzung = () => {
                   Download
                 </h2>
                 <a 
-                  href="src/assets/satzung.pdf" 
+                  href="/satzung.pdf" 
                   className="inline-block bg-white text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
                 >
                   Satzung herunterladen
