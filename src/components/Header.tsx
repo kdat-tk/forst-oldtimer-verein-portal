@@ -18,12 +18,16 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-vintage rounded-lg flex items-center justify-center shadow-vintage">
-              <Car className="w-6 h-6 text-white" />
+            <div className="w-12 h-12 rounded-lg overflow-hidden shadow-vintage">
+              <img 
+                src="/lovable-uploads/b4cdec90-7731-4ca8-9fe0-4337ad2ca5f6.png" 
+                alt="Oldtimerfreunde Forst Logo" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h1 className="text-xl font-bold text-vintage-brown">Oldtimerfreunde</h1>
-              <p className="text-sm text-vintage-copper">Forst</p>
+              <p className="text-sm text-vintage-copper">Forst e.V.</p>
             </div>
           </div>
 

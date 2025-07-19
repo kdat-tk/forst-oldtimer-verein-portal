@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Calendar, Users, ArrowDown } from 'lucide-react';
-import heroImage from '@/assets/hero-oldtimer.jpg';
+import heroImage from '@/assets/hero-traktor.jpg';
 
 const Hero = () => {
   return (
@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Classic vintage car" 
-          className="w-full h-full object-cover opacity-20"
+          alt="Vintage agricultural tractor" 
+          className="w-full h-full object-cover opacity-25"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-vintage-cream/80 to-background/90"></div>
       </div>
