@@ -63,7 +63,7 @@ const Satzung = () => {
                 </h2>
                 <a 
                   href="src/assets/satzung.pdf" 
-                  className="inline-block bg-vintage-leather text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
+                  className="inline-block bg-white text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
                 >
                   Satzung herunterladen
                 </a>
