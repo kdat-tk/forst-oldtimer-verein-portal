@@ -186,8 +186,8 @@ const Impressum = () => {
               {/* Update Notice */}
               <div className="bg-vintage-cream/50 rounded-lg p-6">
                 <p className="text-vintage-brown text-sm">
-                  <strong>Hinweis:</strong> Stand: November 2024. Dieses Impressum wird nach der 
-                  Vorstandswahl und Vereinsregistrierung entsprechend aktualisiert.
+                  <strong>Hinweis:</strong> Stand November 2024. Dieses Impressum wird nach der nächsten
+                  Vorstandswahl entsprechend aktualisiert.
                 </p>
               </div>
 
