@@ -17,10 +17,10 @@ const Rental = () => {
   const occasions = [
     { name: 'Hochzeiten', icon: '💍' },
     { name: 'Firmenfeiern', icon: '🏢' },
-    { name: 'Stadtfeste', icon: '🎪' },
+    { name: 'Dorffeste', icon: '🎪' },
     { name: 'Geburtstage', icon: '🎂' },
     { name: 'Oldtimer-Events', icon: '🚗' },
-    { name: 'Märkte', icon: '🛒' }
+    { name: 'Ausstellungen', icon: '🛒' }
   ];
 
   const packages = [
@@ -56,7 +56,7 @@ const Rental = () => {
             Bierschankwagen Vermietung
           </h2>
           <p className="text-xl text-vintage-leather max-w-2xl mx-auto">
-            Verleihen Sie Ihrer Veranstaltung mit unserem historischen Bierschankwagen echten Charme und Authentizität.
+            Verleihen Sie Ihrer Veranstaltung mit unserem praktischen Bierschankwagen echten Charme und Authentizität.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ const Rental = () => {
           <div>
             <img 
               src={bierwagenImage} 
-              alt="Historischer Bierschankwagen" 
+              alt="Unser Bierschankwagen" 
               className="w-full h-64 lg:h-80 object-cover rounded-lg shadow-vintage"
             />
           </div>
@@ -74,14 +74,13 @@ const Rental = () => {
               Tradition trifft Moderne
             </h3>
             <p className="text-vintage-leather mb-6">
-              Unser liebevoll restaurierter Bierschankwagen aus den 1950er Jahren bringt 
-              authentisches Flair zu jeder Veranstaltung. Mit original Details und 
-              moderner Ausstattung ist er der perfekte Blickfang für Ihr Event.
+              Unser Bierschankwagen bringt authentisches Flair auf jede Veranstaltung. Mit Rundum-Theke und 
+              zwei Schankanlagen ist er der perfekte Blickfang für Ihr Event und ein Grant für frisches und kühles Bier.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="flex items-center text-vintage-copper">
                 <Users className="w-5 h-5 mr-2" />
-                <span>Bis 150 Gäste</span>
+                <span>Bis 500 Gäste</span>
               </div>
               <div className="flex items-center text-vintage-copper">
                 <Clock className="w-5 h-5 mr-2" />
