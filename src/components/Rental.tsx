@@ -129,47 +129,6 @@ const Rental = () => {
           </div>
         </div>
 
-        {/* Pricing Packages */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-vintage-brown mb-8 text-center">
-            Unsere Pakete
-          </h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            {packages.map((pkg, index) => (
-              <Card key={index} className={`relative bg-gradient-card border-vintage-copper/20 shadow-card-vintage hover:shadow-vintage transition-all duration-300 ${pkg.popular ? 'ring-2 ring-vintage-gold' : ''}`}>
-                {pkg.popular && (
-                  <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-vintage-gold text-vintage-brown">
-                    Beliebt
-                  </Badge>
-                )}
-                <CardHeader className="text-center">
-                  <CardTitle className="text-vintage-brown">{pkg.name}</CardTitle>
-                  <div className="text-vintage-leather">{pkg.duration}</div>
-                  <div className="text-3xl font-bold text-vintage-copper">
-                    {pkg.price}€
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3">
-                    {pkg.included.map((item, idx) => (
-                      <li key={idx} className="flex items-start space-x-2">
-                        <Check className="w-4 h-4 text-vintage-copper mt-1 flex-shrink-0" />
-                        <span className="text-sm text-vintage-brown">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Button 
-                    variant={pkg.popular ? "vintage" : "outline"} 
-                    className="w-full mt-6"
-                  >
-                    Paket anfragen
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-
         {/* Contact Section */}
         <Card className="bg-gradient-vintage text-white shadow-vintage">
           <CardHeader className="text-center">
