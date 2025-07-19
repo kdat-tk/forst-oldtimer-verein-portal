@@ -33,7 +33,7 @@ const Events = () => {
       location: 'Henninger Stuben Forst',
       description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
       attendees: 99,
-      type: 'Workshop'
+      type: 'Stammtisch'
     }
   ];
 
