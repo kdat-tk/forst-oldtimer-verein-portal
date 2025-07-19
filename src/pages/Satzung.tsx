@@ -56,11 +56,13 @@ const Satzung = () => {
               </div>
 
               {/* Satzung Download */}
-              <div className="space-y-10">
-                
-                <Button variant="secondary" className="w-full">
+              <div className="mb-12">
+                <a 
+                  href="satzung.pdf" 
+                  className="inline-block bg-white text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
+                >
                   Satzung herunterladen
-                </Button>
+                </a>
               </div>
 
               {/* Signature Section */}
