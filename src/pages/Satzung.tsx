@@ -58,7 +58,7 @@ const Satzung = () => {
               {/* Satzung Download */}
               <div className="mb-12">
                 <h2 className="text-2xl font-bold text-vintage-brown mb-4 flex items-center">
-                  <Users className="w-6 h-6 mr-3" />
+                  <FileText className="w-6 h-6 mr-3" />
                   Download
                 </h2>
                 <a 
