@@ -57,9 +57,13 @@ const Satzung = () => {
 
               {/* Satzung Download */}
               <div className="mb-12">
+                <h2 className="text-2xl font-bold text-vintage-brown mb-4 flex items-center">
+                  <Users className="w-6 h-6 mr-3" />
+                  Download
+                </h2>
                 <a 
-                  href="satzung.pdf" 
-                  className="inline-block bg-white text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
+                  href="src/assets/satzung.pdf" 
+                  className="inline-block bg-grey text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
                 >
                   Satzung herunterladen
                 </a>
