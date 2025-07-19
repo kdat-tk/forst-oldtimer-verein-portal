@@ -114,14 +114,14 @@ const Vehicles = () => {
             <div className="w-16 h-16 bg-gradient-vintage rounded-full flex items-center justify-center mx-auto mb-3 shadow-vintage">
               <Car className="w-8 h-8 text-white" />
             </div>
-            <div className="text-2xl font-bold text-vintage-copper">6</div>
+            <div className="text-2xl font-bold text-vintage-copper">7</div>
             <div className="text-sm text-vintage-leather">Fahrzeuge</div>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-gradient-vintage rounded-full flex items-center justify-center mx-auto mb-3 shadow-vintage">
               <Calendar className="w-8 h-8 text-white" />
             </div>
-            <div className="text-2xl font-bold text-vintage-copper">1970</div>
+            <div className="text-2xl font-bold text-vintage-copper">1968</div>
             <div className="text-sm text-vintage-leather">Ø Baujahr</div>
           </div>
           <div className="text-center">
