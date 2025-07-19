@@ -11,7 +11,7 @@ const Events = () => {
       date: '20. Juli 2025',
       time: '12:00 - 16:00 Uhr',
       location: 'Waldseehalle Forst',
-      description: 'Unsere erste Fahrzeugausstellung im Rahmenn der Forster Kirmes mit Infostand.',
+      description: 'Unsere erste Fahrzeugausstellung im Rahmen der Forster Kirmes mit Infostand.',
       attendees: 99,
       type: 'Ausstellung'
     },
