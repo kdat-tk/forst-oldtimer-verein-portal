@@ -16,12 +16,12 @@ const Vehicles = () => {
     },
     {
       id: 2,
-      name: 'Antonio Carraro 635 Supertigre',
-      year: 1970,
-      owner: 'M. Becker',
+      name: 'Hanomag C112',
+      year: 1957,
+      owner: 'R. Friedel',
       category: 'Ackerschlepper',
-      description: 'Ein Knicklenker mit Allradantrieb für Wein- und Obstbau.',
-      features: ['Knicklenker', 'Lombardini-Dieselmotor', '30 PS'],
+      description: 'Der kompakte Einzylinder-Traktor zeichnet sich durch seine robuste Bauweise und einfache Technik aus.',
+      features: ['1-Zylinder', 'Fliegengewicht', '12 PS'],
       condition: 'Original'
     },
     {
@@ -46,6 +46,16 @@ const Vehicles = () => {
     },
     {
       id: 5,
+      name: 'Antonio Carraro 635 Supertigre',
+      year: 1970,
+      owner: 'M. Becker',
+      category: 'Ackerschlepper',
+      description: 'Ein Knicklenker mit Allradantrieb für Wein- und Obstbau.',
+      features: ['Knicklenker', 'Lombardini-Dieselmotor', '30 PS'],
+      condition: 'Original'
+    },
+    {
+      id: 6,
       name: 'Rapid Alltrac',
       year: 1972,
       owner: 'O. Geuder',
@@ -55,7 +65,7 @@ const Vehicles = () => {
       condition: 'Restauriert'
     },
     {
-      id: 6,
+      id: 7,
       name: 'Bierschankwagen',
       year: 1985,
       owner: 'Verein',
