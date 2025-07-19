@@ -7,32 +7,32 @@ const Events = () => {
   const upcomingEvents = [
     {
       id: 1,
-      title: 'Frühjahrs-Oldtimertreffen',
-      date: '15. März 2024',
-      time: '10:00 - 16:00 Uhr',
-      location: 'Marktplatz Forst',
-      description: 'Unser erstes großes Treffen mit Fahrzeugausstellung und geselligem Beisammensein.',
-      attendees: 25,
-      type: 'Treffen'
+      title: 'Oldtimerausstellung',
+      date: '20. Juli 2025',
+      time: '12:00 - 16:00 Uhr',
+      location: 'Waldseehalle Forst',
+      description: 'Unsere erste Fahrzeugausstellung im Rahmenn der Forster Kirmes mit Infostand.',
+      attendees: 99,
+      type: 'Ausstellung'
     },
     {
       id: 2,
-      title: 'Gemeinsame Ausfahrt Spreewald',
-      date: '22. April 2024',
-      time: '09:00 - 18:00 Uhr',
-      location: 'Treffpunkt: Vereinsheim',
-      description: 'Malerische Rundfahrt durch den Spreewald mit Mittagspause in einem traditionellen Gasthaus.',
-      attendees: 15,
-      type: 'Ausfahrt'
+      title: 'Stammtisch',
+      date: '25. Juli 2025',
+      time: 'ab 17:30 Uhr',
+      location: 'Henninger Stuben Forst',
+      description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
+      attendees: 99,
+      type: 'Stammtisch'
     },
     {
       id: 3,
-      title: 'Technischer Austausch',
-      date: '10. Mai 2024',
-      time: '19:00 - 21:00 Uhr',
-      location: 'Vereinsheim Forst',
-      description: 'Workshop zu Restaurationstechniken und Erfahrungsaustausch unter Mitgliedern.',
-      attendees: 12,
+      title: 'Stammtisch',
+      date: '01. August 2025',
+      time: 'ab 17:30 Uhr',
+      location: 'Henninger Stuben Forst',
+      description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
+      attendees: 99,
       type: 'Workshop'
     }
   ];
@@ -41,17 +41,17 @@ const Events = () => {
     {
       id: 1,
       title: 'Vereinsgründung',
-      date: '15. Januar 2024',
-      description: 'Offizielle Gründung der Oldtimerfreunde Forst mit 18 Gründungsmitgliedern.',
-      attendees: 18,
+      date: '10. November 2024',
+      description: 'Offizielle Gründung der Oldtimerfreunde Forst mit 9 Gründungsmitgliedern.',
+      attendees: 9,
       highlight: true
     },
     {
       id: 2,
-      title: 'Erstes Mitgliedertreffen',
-      date: '28. Januar 2024',
-      description: 'Planung der ersten gemeinsamen Aktivitäten und Festlegung der Vereinsziele.',
-      attendees: 22
+      title: 'Erste Jahreshauptversammlung',
+      date: '28. März 2025',
+      description: 'Planung der nächsten gemeinsamen Aktivitäten und Festlegung der Vereinsziele.',
+      attendees: 8
     }
   ];
 
