@@ -63,7 +63,7 @@ const Satzung = () => {
                 </h2>
                 <a 
                   href="src/assets/satzung.pdf" 
-                  className="inline-block bg-grey text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
+                  className="inline-block bg-vintage-green text-vintage-copper px-6 py-3 rounded-lg font-medium hover:bg-vintage-cream transition-colors"
                 >
                   Satzung herunterladen
                 </a>
@@ -80,7 +80,7 @@ const Satzung = () => {
                       Oldtimerfreunde Forst e.V.
                     </p>
                     <p className="text-vintage-copper">
-                      Gegründet am 10. November 2024 in Forst (Lausitz)
+                      Gegründet am 10. November 2024 in Forst (Baden)
                     </p>
                   </div>
                 </div>
