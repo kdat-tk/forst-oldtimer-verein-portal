@@ -45,12 +45,12 @@ const Impressum = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-vintage-brown">Anschrift:</h3>
-                    <p>Vereinsheim Forst<br />
-                    03222 Lübbenau/Spreewald</p>
+                    <p>Weiherer Str. 31<br />
+                    76694 Forst</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-vintage-brown">Vereinsregister:</h3>
-                    <p>Eintragung beantragt beim Amtsgericht Cottbus</p>
+                    <p>Amtsgericht Mannheim / Registergericht</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-vintage-brown">Gründung:</h3>
@@ -67,16 +67,19 @@ const Impressum = () => {
                 </h2>
                 <div className="space-y-4 text-vintage-copper">
                   <p>
-                    Der Verein wird vertreten durch den 1. Vorsitzenden und den 2. Vorsitzenden, 
-                    jeweils einzelvertretungsberechtigt.
+                    Der Verein wird vertreten durch den 1. Vorsitzenden, den 2. Vorsitzenden sowie den Kassier.
                   </p>
                   <div>
                     <h3 className="font-semibold text-vintage-brown">1. Vorsitzender:</h3>
-                    <p>[Name wird nach Vorstandswahl ergänzt]</p>
+                    <p>Oswin Geuder</p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-vintage-brown">2. Vorsitzender:</h3>
-                    <p>[Name wird nach Vorstandswahl ergänzt]</p>
+                    <p>Roland Friedel</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-vintage-brown">Kassier:</h3>
+                    <p>Dr. Tommi Kramer</p>
                   </div>
                 </div>
               </div>
@@ -102,7 +105,7 @@ const Impressum = () => {
                     <div>
                       <span className="font-semibold">Telefon: </span>
                       <a href="tel:+493562123456" className="text-vintage-brown hover:text-vintage-copper transition-colors">
-                        +49 (0) 3562 123456
+                        +49 (0) 176 45850204
                       </a>
                     </div>
                   </div>
