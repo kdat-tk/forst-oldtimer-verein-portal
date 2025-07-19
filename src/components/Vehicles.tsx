@@ -27,7 +27,7 @@ const Vehicles = () => {
     {
       id: 3,
       name: 'Belarus 510',
-      year: 19xx,
+      year: 1969,
       owner: 'O. Geuder',
       category: 'Ackerschlepper',
       description: 'Leistungsstarker Traktor mit ca. 60 PS, der sich durch robuste Bauweise und zuverlässige Technik auszeichnet.',
