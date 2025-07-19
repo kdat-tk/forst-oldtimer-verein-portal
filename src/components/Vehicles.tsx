@@ -6,79 +6,79 @@ const Vehicles = () => {
   const vehicles = [
     {
       id: 1,
-      name: 'Mercedes-Benz 190 SL',
-      year: 1958,
-      owner: 'Klaus Müller',
-      category: 'Sportwagen',
-      description: 'Vollständig restaurierter Roadster in originalem Silbermetallic. Ein Traum für Sonntagsfahrten.',
-      features: ['Hardtop', 'Ledersitze', 'Original Motor'],
-      condition: 'Konzession 1'
-    },
-    {
-      id: 2,
-      name: 'VW Käfer 1200',
-      year: 1967,
-      owner: 'Petra Schmidt',
-      category: 'Klassiker',
-      description: 'Der beliebte Käfer in klassischem Pastellblau. Läuft wie am ersten Tag.',
-      features: ['Schiebedach', 'Original Interieur', 'H-Kennzeichen'],
-      condition: 'Restauriert'
-    },
-    {
-      id: 3,
-      name: 'BMW 2002 Turbo',
-      year: 1974,
-      owner: 'Hans Weber',
-      category: 'Sportwagen',
-      description: 'Seltener Turbo in Chamonix-Weiß. Eines der ersten Turbo-Serienfahrzeuge.',
-      features: ['Turbolader', 'Sportfahrwerk', 'Recaro-Sitze'],
+      name: 'Eicher EKL 15/II',
+      year: 1956,
+      owner: 'A. Kramer',
+      category: 'Ackerschlepper',
+      description: 'Original erhaltener Ackerschlepper mit 16 PS. Laut Eicher der beste Bulldog der Welt.',
+      features: ['1-Zylinder', 'Vorderachsfederung', 'Original Zustand'],
       condition: 'Original'
     },
     {
+      id: 2,
+      name: 'Antonio Carraro 635 Supertigre',
+      year: 1970,
+      owner: 'M. Becker',
+      category: 'Ackerschlepper',
+      description: 'Ein Knicklenker mit Allradantrieb für Wein- und Obstbau.',
+      features: ['Knicklenker', 'Lombardini-Dieselmotor', '30 PS'],
+      condition: 'Original'
+    },
+    {
+      id: 3,
+      name: 'Belarus 510',
+      year: 19xx,
+      owner: 'O. Geuder',
+      category: 'Ackerschlepper',
+      description: 'Leistungsstarker Traktor mit ca. 60 PS, der sich durch robuste Bauweise und zuverlässige Technik auszeichnet.',
+      features: ['Vierzylinder', 'Hohe Zugkraft', 'LKW-Sitz'],
+      condition: 'Restauriert'
+    },
+    {
       id: 4,
-      name: 'Porsche 911 Targa',
-      year: 1972,
-      owner: 'Maria Hoffmann',
-      category: 'Sportwagen',
-      description: 'Eleganter Targa in klassischem Schwarz mit charakteristischem Überrollbügel.',
-      features: ['Targa-Dach', 'Fuchs-Felgen', '2.4L Motor'],
+      name: 'Ausflugsanhänger',
+      year: 1968,
+      owner: 'Verein',
+      category: 'Anhänger',
+      description: 'Anhänger für Ausflüge, geeignet für Last- und Personentransport.',
+      features: ['Überdacht', 'Sitzbank', 'Beleuchtung'],
       condition: 'Restauriert'
     },
     {
       id: 5,
-      name: 'Ford Mustang Fastback',
-      year: 1968,
-      owner: 'Jürgen Bauer',
-      category: 'Muscle Car',
-      description: 'Amerikanischer Klassiker mit V8-Motor. Importiert und liebevoll gepflegt.',
-      features: ['V8 289cui', 'Automatik', 'Vinyl-Dach'],
+      name: 'Rapid Alltrac',
+      year: 1972,
+      owner: 'O. Geuder',
+      category: 'Bergtraktor',
+      description: 'Kompakter Einachsschlepper mit Allradantrieb aus der Schweiz, der speziell für den Einsatz in der Berglandwirtschaft entwickelt wurde',
+      features: ['Allradantrieb', 'Ladepritsche', 'Überdachung'],
       condition: 'Restauriert'
     },
     {
       id: 6,
-      name: 'Citroën 2CV6',
-      year: 1981,
-      owner: 'Andrea Klein',
-      category: 'Kultauto',
-      description: 'Die berühmte "Ente" in fröhlichem Gelb. Charm pur auf vier Rädern.',
-      features: ['Rolldach', 'Original Sitze', 'Luftkühlung'],
-      condition: 'Original'
+      name: 'Bierschankwagen',
+      year: 1985,
+      owner: 'Verein',
+      category: 'Anhänger',
+      description: 'Schankwagen mit Zapfanlage - unser Garant für tolle Feste.',
+      features: ['Zwei Zapfhähne', 'Theke', 'Durchlaufkühler'],
+      condition: 'Renoviert'
     }
   ];
 
   const getCategoryColor = (category: string) => {
     switch (category) {
-      case 'Sportwagen': return 'bg-vintage-copper text-white';
-      case 'Klassiker': return 'bg-vintage-gold text-vintage-brown';
-      case 'Muscle Car': return 'bg-vintage-leather text-white';
-      case 'Kultauto': return 'bg-vintage-brown text-white';
+      case 'Ackerschlepper': return 'bg-vintage-copper text-white';
+      case 'Anhänger': return 'bg-vintage-gold text-vintage-brown';
+      case 'Bergtraktor': return 'bg-vintage-leather text-white';
+      case 'Klassiker': return 'bg-vintage-brown text-white';
       default: return 'bg-vintage-copper text-white';
     }
   };
 
   const getConditionColor = (condition: string) => {
     switch (condition) {
-      case 'Konzession 1': return 'bg-green-600 text-white';
+      case 'Renoviert': return 'bg-green-600 text-white';
       case 'Restauriert': return 'bg-blue-600 text-white';
       case 'Original': return 'bg-purple-600 text-white';
       default: return 'bg-gray-600 text-white';
@@ -94,7 +94,7 @@ const Vehicles = () => {
             Unsere Fahrzeuge
           </h2>
           <p className="text-xl text-vintage-leather max-w-2xl mx-auto">
-            Entdecken Sie die beeindruckende Sammlung klassischer Automobile unserer Vereinsmitglieder.
+            Entdecken Sie die Sammlung klassischer Fahrzeuge unserer Vereinsmitglieder.
           </p>
         </div>
 
@@ -111,15 +111,15 @@ const Vehicles = () => {
             <div className="w-16 h-16 bg-gradient-vintage rounded-full flex items-center justify-center mx-auto mb-3 shadow-vintage">
               <Calendar className="w-8 h-8 text-white" />
             </div>
-            <div className="text-2xl font-bold text-vintage-copper">1967</div>
+            <div className="text-2xl font-bold text-vintage-copper">1968</div>
             <div className="text-sm text-vintage-leather">Ø Baujahr</div>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-gradient-vintage rounded-full flex items-center justify-center mx-auto mb-3 shadow-vintage">
               <Gauge className="w-8 h-8 text-white" />
             </div>
-            <div className="text-2xl font-bold text-vintage-copper">4</div>
-            <div className="text-sm text-vintage-leather">Sportwagen</div>
+            <div className="text-2xl font-bold text-vintage-copper">2</div>
+            <div className="text-sm text-vintage-leather">Anhänger</div>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-gradient-vintage rounded-full flex items-center justify-center mx-auto mb-3 shadow-vintage">
