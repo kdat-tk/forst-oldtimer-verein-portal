@@ -54,8 +54,8 @@ const Satzung = () => {
                 
                 {/* §1 Name, Sitz, Geschäftsjahr  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§1 Name, Sitz, Geschäftsjahr </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§1 Name, Sitz, Geschäftsjahr </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Der gegründete Verein führt den Namen „Oldtimerfreunde Forst e. V.“</p>
                     <p>(2) Er hat seinen Sitz in 76694 Forst und soll in das Vereinsregister eingetragen werden</p>
                     <p>(3) Das Geschäftsjahr des Vereins ist das Kalenderjahr</p>
@@ -67,8 +67,8 @@ const Satzung = () => {
 
                 {/* §2 Zweck des Vereins  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§2 Zweck des Vereins </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§2 Zweck des Vereins </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>Zweck des Vereins ist die Förderung der Erhaltung und Pflege historischer Fahrzeuge wie</p>
                     <p>Traktoren, Landmaschinen, Autos und Motorräder sowie die Bewahrung des traditionellen</p>
                     <p>Brauchtums und der technischen Kultur. Der Verein engagiert sich in der Bildung und</p>
@@ -83,8 +83,8 @@ const Satzung = () => {
 
                 {/* §3 Gemeinnützigkeit  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§3 Gemeinnützigkeit </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§3 Gemeinnützigkeit </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Der Verein ist selbstlos tätig; er verfolgt nicht in erster Linie eigenwirtschaftliche Zwecke</p>
                     <p>(2) Mittel des Vereins dürfen nur für die satzungsgemäßen Zwecke verwendet werden. Die</p>
                     <p>Mitglieder erhalten keine Zuwendungen aus Mitteln des Vereins</p>
@@ -99,8 +99,8 @@ const Satzung = () => {
 
                 /* §4 Mitgliedschaft  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§4 Mitgliedschaft </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§4 Mitgliedschaft </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Mitglied des Vereins können sowohl natürliche als auch juristische Personen des</p>
                     <p>öffentlichen und privaten Rechts werden, die den Vereinszweck unterstützen oder den</p>
                     <p>Zielen des Vereins zustimmen</p>
@@ -140,8 +140,8 @@ const Satzung = () => {
 
                 {/* §5 Beitragspflicht  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§5 Beitragspflicht </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§5 Beitragspflicht </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Der Verein erhebt zur Bestreitung seiner Auslagen Beiträge, deren Höhe und</p>
                     <p>Zahlungsweise von der Mitgliederversammlung festgelegt werden</p>
                     <p>(2) Weiterhin hat die Mitgliederversammlung die Möglichkeit, eine Aufnahmegebühr</p>
@@ -155,8 +155,8 @@ const Satzung = () => {
 
                 {/* §6 Organe des Vereins  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§6 Organe des Vereins </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§6 Organe des Vereins </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Organe des Vereins sind:</p>
                     <p>a. der Vorstand</p>
                     <p>b. die Mitgliederversammlung</p>
@@ -166,8 +166,8 @@ const Satzung = () => {
 
                 {/* §7 Der Vorstand  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§7 Der Vorstand </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§7 Der Vorstand </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Der Vorstand besteht aus:</p>
                     <p>a. dem ersten Vorsitzenden</p>
                     <p>b. dem 1. stellvertretenden Vorsitzenden</p>
@@ -202,8 +202,8 @@ const Satzung = () => {
 
                 {/* §8 Mitgliederversammlung  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§8 Mitgliederversammlung </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§8 Mitgliederversammlung </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Die Mitgliederversammlung ist das oberste Organ des Vereins, und wird durch den 1.</p>
                     <p>Vorstand geleitet, bei dessen Verhinderung vom 1. stellvertretenden Vorstand oder</p>
                     <p>Kassenwart</p>
@@ -259,8 +259,8 @@ const Satzung = () => {
 
                 {/* §9 Rechnungsprüfer  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§9 Rechnungsprüfer </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§9 Rechnungsprüfer </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Der Verein hat 2 Rechnungsprüfer</p>
                     <p>(2) Die Rechnungsprüfer werden durch die Mitgliederversammlung auf die Dauer von 1 Jahr</p>
                     <p>gewählt. Eine Wiederwahl ist zulässig</p>
@@ -272,8 +272,8 @@ const Satzung = () => {
 
                 {/* §10 Auflösung des Vereins  */}
                 <article>
-                  <h3 className=""text-xl font-semibold text-vintage-brown mb-4"">§10 Auflösung des Vereins </h3>
-                  <div className=""space-y-3 text-vintage-copper"">
+                  <h3 className="text-xl font-semibold text-vintage-brown mb-4">§10 Auflösung des Vereins </h3>
+                  <div className="space-y-3 text-vintage-copper">
                     <p>(1) Die Auflösung des Vereins kann nur in einer eigens zu diesem Zweck einberufenen</p>
                     <p>Mitgliederversammlung mit 3/4 Stimmenmehrheit der anwesenden Mitglieder erfolgen</p>
                     <p>(2) Im Falle der Auflösung ernennt die Mitgliederversammlung die Liquidatoren</p>
