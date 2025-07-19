@@ -43,9 +43,15 @@ const Satzung = () => {
                   Präambel
                 </h2>
                 <p className="text-vintage-copper leading-relaxed">
-                  Die Oldtimerfreunde Forst e.V. sind ein gemeinnütziger Verein, der sich der Pflege und 
-                  Erhaltung historischer Kraftfahrzeuge sowie der Förderung der Gemeinschaft unter 
-                  Oldtimer-Enthusiasten widmet.
+                  Zweck des Vereins ist die Förderung der Erhaltung und Pflege historischer Fahrzeuge wie
+                  Traktoren, Landmaschinen, Autos und Motorräder sowie die Bewahrung des traditionellen
+                  Brauchtums und der technischen Kultur. Der Verein engagiert sich in der Bildung und
+                  Weiterbildung seiner Mitglieder und der interessierten Öffentlichkeit durch
+                  Informationsveranstaltungen, Vorführungen und Ausstellungen. Er fördert die Gemeinschaft
+                  und das soziale Miteinander durch regelmäßige Treffen und Ausfahrten und setzt sich für die
+                  Jugendarbeit und Nachwuchsförderung ein. Darüber hinaus betreibt der Verein aktive
+                  Öffentlichkeitsarbeit, um seine Ziele und Aktivitäten bekannt zu machen und das Interesse
+                  an historischen Fahrzeugen zu fördern.
                 </p>
               </div>
 
