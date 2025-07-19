@@ -59,7 +59,6 @@ const Satzung = () => {
               <div className="space-y-10">
                 
                 <Button variant="secondary" className="w-full">
-                  <Mail className="w-4 h-4 mr-2" />
                   Satzung herunterladen
                 </Button>
               </div>
