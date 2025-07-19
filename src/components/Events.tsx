@@ -23,7 +23,7 @@ const Events = () => {
       location: 'Henninger Stuben Forst',
       description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
       attendees: 99,
-      type: 'Stammtisch'
+      type: 'Treffen'
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const Events = () => {
       location: 'Henninger Stuben Forst',
       description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
       attendees: 99,
-      type: 'Stammtisch'
+      type: 'Treffen'
     }
   ];
 
@@ -59,7 +59,7 @@ const Events = () => {
     switch (type) {
       case 'Treffen': return 'bg-vintage-copper text-white';
       case 'Ausfahrt': return 'bg-vintage-gold text-vintage-brown';
-      case 'Workshop': return 'bg-vintage-leather text-white';
+      case 'Ausstellung': return 'bg-vintage-leather text-white';
       default: return 'bg-vintage-copper text-white';
     }
   };
@@ -91,12 +91,6 @@ const Events = () => {
                     <Badge className={getEventTypeColor(event.type)}>
                       {event.type}
                     </Badge>
-                    <div className="text-right text-sm text-vintage-leather">
-                      <div className="flex items-center">
-                        <Users className="w-4 h-4 mr-1" />
-                        {event.attendees} Teilnehmer
-                      </div>
-                    </div>
                   </div>
                   <CardTitle className="text-vintage-brown group-hover:text-vintage-copper transition-colors">
                     {event.title}
