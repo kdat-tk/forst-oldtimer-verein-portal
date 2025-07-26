@@ -62,7 +62,7 @@
     "vaul": "^0.9.3",
     "zod": "^3.23.8",
     "keen-slider": "^6.8.6",
-    "react-image-lightbox": "^5.1.4"
+    "fslightbox-react": "^1.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

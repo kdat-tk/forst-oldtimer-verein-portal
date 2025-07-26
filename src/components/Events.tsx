@@ -6,8 +6,7 @@ import { useState } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 
-import Lightbox from 'yet-another-react-lightbox';
-import 'yet-another-react-lightbox/styles.css';
+import EventImageCarousel from '@/components/EventImageCarousel';
 
 const Events = () => {
   const upcomingEvents = [
@@ -176,22 +175,7 @@ const Events = () => {
                 <CardContent>
                   {/* Bild-Carousel, wenn Bilder vorhanden sind */}
                   {event.images && event.images.length > 0 && (
-                    <>
-                      <div
-                        ref={sliderRef}
-                        className="keen-slider mb-4 rounded overflow-hidden"
-                      >
-                        {event.images.map((src, index) => (
-                          <img
-                            key={index}
-                            src={src}
-                            alt={`${event.title} Bild ${index + 1}`}
-                            className="keen-slider__slide object-cover h-48 w-full cursor-pointer"
-                            onClick={() => openLightbox(event.images!, index)}
-                          />
-                        ))}
-                      </div>
-                    </>
+                    <EventImageCarousel images={event.images} />
                   )}
                 
                   <p className="text-muted-foreground">{event.description}</p>
