@@ -6,19 +6,9 @@ import { Badge } from '@/components/ui/badge';
 const Events = () => {
   const upcomingEvents = [
     {
-      id: 1,
-      title: 'Oldtimerausstellung',
-      date: '20. Juli 2025',
-      time: '12:00 - 16:00 Uhr',
-      location: 'Waldseehalle Forst',
-      description: 'Unsere erste Fahrzeugausstellung im Rahmen der Forster Kirmes mit Infostand.',
-      attendees: 99,
-      type: 'Ausstellung'
-    },
-    {
-      id: 2,
+      id: 3,
       title: 'Stammtisch',
-      date: '25. Juli 2025',
+      date: '01. August 2025',
       time: 'ab 17:30 Uhr',
       location: 'Henninger Stuben Forst',
       description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
@@ -26,12 +16,12 @@ const Events = () => {
       type: 'Treffen'
     },
     {
-      id: 3,
-      title: 'Stammtisch',
-      date: '01. August 2025',
+      id: 4,
+      title: 'Sommerfest',
+      date: '15. August 2025',
       time: 'ab 17:30 Uhr',
-      location: 'Henninger Stuben Forst',
-      description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
+      location: 'Siehe Mitgliederchat',
+      description: 'Zu unserem Sommerfest laden wir alle Mitglieder zu einem gemütlichen Abend bei Speiß und Trank ein.',
       attendees: 99,
       type: 'Treffen'
     }
@@ -52,6 +42,13 @@ const Events = () => {
       date: '28. März 2025',
       description: 'Planung der nächsten gemeinsamen Aktivitäten und Festlegung der Vereinsziele.',
       attendees: 8
+    },
+    {
+      id: 3,
+      title: 'Oldtimerausstellung',
+      date: '20. Juli 2025',
+      description: 'Im Rahmen der Forster Kirmes haben wir unsere Oldtimerfahrzeuge der Öffentlichkeit präsentiert und großes Interesse geweckt. Zahlreiche Besucher nutzten die Gelegenheit, die historischen Fahrzeuge aus nächster Nähe zu bestaunen. An unserem Infostand informierten wir über die Aktivitäten des Vereins und führten viele spannende Gespräche mit interessierten Forster Bürgerinnen und Bürgern.',
+      attendees: 100
     }
   ];
 
