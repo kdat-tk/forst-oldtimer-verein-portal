@@ -12,7 +12,7 @@ const Vehicles = () => {
       category: 'Ackerschlepper',
       description: 'Original erhaltener Ackerschlepper mit 16 PS. Laut Eicher der beste Bulldog der Welt.',
       features: ['1-Zylinder', 'Vorderachsfederung', 'Original Zustand'],
-      imgae: "/images/vehicles/eicher-ekl-15-2.jpg",
+      image: "/images/vehicles/eicher-ekl-15-2.jpg",
       condition: 'Original'
     },
     {
