@@ -12,6 +12,7 @@ const Vehicles = () => {
       category: 'Ackerschlepper',
       description: 'Original erhaltener Ackerschlepper mit 16 PS. Laut Eicher der beste Bulldog der Welt.',
       features: ['1-Zylinder', 'Vorderachsfederung', 'Original Zustand'],
+      imgae: "/images/vehicles/eicher-ekl-15-2.jpg",
       condition: 'Original'
     },
     {
@@ -162,6 +163,17 @@ const Vehicles = () => {
                 </div>
               </CardHeader>
               <CardContent>
+                
+                <div className="mb-4">  
+                  {vehicle.image && (
+                    <img 
+                      src={vehicle.image} 
+                      alt={vehicle.name} 
+                      className="w-full h-auto object-cover rounded" 
+                    />
+                  )}
+                </div>
+                
                 <div className="mb-4">
                   <p className="text-sm text-vintage-leather mb-1">Besitzer:</p>
                   <p className="font-medium text-vintage-brown">{vehicle.owner}</p>
