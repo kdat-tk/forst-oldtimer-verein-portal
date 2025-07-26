@@ -2,6 +2,12 @@ import { Calendar, MapPin, Clock, Users } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { useState } from 'react';
+import { useKeenSlider } from 'keen-slider/react';
+import 'keen-slider/keen-slider.min.css';
+
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
 
 const Events = () => {
   const upcomingEvents = [
@@ -48,7 +54,11 @@ const Events = () => {
       title: 'Oldtimerausstellung',
       date: '20. Juli 2025',
       description: 'Im Rahmen der Forster Kirmes haben wir unsere Oldtimerfahrzeuge der Öffentlichkeit präsentiert und großes Interesse geweckt. Zahlreiche Besucher nutzten die Gelegenheit, die historischen Fahrzeuge aus nächster Nähe zu bestaunen. An unserem Infostand informierten wir über die Aktivitäten des Vereins und führten viele spannende Gespräche mit interessierten Forster Bürgerinnen und Bürgern.',
-      attendees: 100
+      attendees: 100,
+      images: [
+        "/images/events/2025-kirmes/oldtimerausstellung-1.jpg",
+        "/images/events/2025-kirmes/oldtimerausstellung-2.jpg"
+      ]
     }
   ];
 
@@ -59,6 +69,21 @@ const Events = () => {
       case 'Ausstellung': return 'bg-vintage-leather text-white';
       default: return 'bg-vintage-copper text-white';
     }
+  };
+
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImages, setLightboxImages] = useState<string[]>([]);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+  
+  const [sliderRef] = useKeenSlider<HTMLDivElement>({
+    loop: true,
+    slides: { perView: 1 },
+  });
+  
+  const openLightbox = (images: string[], index: number) => {
+    setLightboxImages(images);
+    setLightboxIndex(index);
+    setLightboxOpen(true);
   };
 
   return (
@@ -149,12 +174,38 @@ const Events = () => {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">
-                    {event.description}
-                  </p>
+                  {/* Bild-Carousel, wenn Bilder vorhanden sind */}
+                  {event.images && event.images.length > 0 && (
+                    <>
+                      <div
+                        ref={sliderRef}
+                        className="keen-slider mb-4 rounded overflow-hidden"
+                      >
+                        {event.images.map((src, index) => (
+                          <img
+                            key={index}
+                            src={src}
+                            alt={`${event.title} Bild ${index + 1}`}
+                            className="keen-slider__slide object-cover h-48 w-full cursor-pointer"
+                            onClick={() => openLightbox(event.images!, index)}
+                          />
+                        ))}
+                      </div>
+                    </>
+                  )}
+                
+                  <p className="text-muted-foreground">{event.description}</p>
                 </CardContent>
               </Card>
             ))}
+            {lightboxImages.length > 0 && (
+              <Lightbox
+                open={lightboxOpen}
+                close={() => setLightboxOpen(false)}
+                slides={lightboxImages.map((src) => ({ src }))}
+                index={lightboxIndex}
+              />
+            )}
           </div>
         </div>
       </div>
