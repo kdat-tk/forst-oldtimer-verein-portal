@@ -39,7 +39,7 @@ export default function EventImageCarousel({ images }: Props) {
       <FsLightbox
         toggler={lightboxToggler}
         sources={images}
-        slide={lightboxIndex}
+        slide={lightboxIndex + 1}
       />
     </div>
   );
