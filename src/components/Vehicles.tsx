@@ -23,6 +23,7 @@ const Vehicles = () => {
       category: 'Ackerschlepper',
       description: 'Der kompakte Einzylinder-Traktor zeichnet sich durch seine robuste Bauweise und einfache Technik aus.',
       features: ['1-Zylinder', 'Fliegengewicht', '12 PS'],
+      image: "/images/vehicles/hanomag-c112.jpg",
       condition: 'Original'
     },
     {
@@ -33,6 +34,7 @@ const Vehicles = () => {
       category: 'Ackerschlepper',
       description: 'Leistungsstarker Traktor mit ca. 60 PS, der sich durch robuste Bauweise und zuverlässige Technik auszeichnet.',
       features: ['Vierzylinder', 'Hohe Zugkraft', 'LKW-Sitz'],
+      image: "/images/vehicles/belarus.jpg",
       condition: 'Restauriert'
     },
     {
@@ -43,6 +45,7 @@ const Vehicles = () => {
       category: 'Anhänger',
       description: 'Anhänger für Ausflüge, geeignet für Last- und Personentransport.',
       features: ['Überdacht', 'Sitzbank', 'Beleuchtung'],
+      image: "/images/vehicles/ausflugsanhaenger.jpg",
       condition: 'Restauriert'
     },
     {
@@ -53,6 +56,7 @@ const Vehicles = () => {
       category: 'Ackerschlepper',
       description: 'Ein Knicklenker mit Allradantrieb für Wein- und Obstbau.',
       features: ['Knicklenker', 'Lombardini-Dieselmotor', '30 PS'],
+      image: "/images/vehicles/carraro-635-supertigre.jpg",
       condition: 'Original'
     },
     {
@@ -73,6 +77,7 @@ const Vehicles = () => {
       category: 'Anhänger',
       description: 'Schankwagen mit Zapfanlage - unser Garant für tolle Feste.',
       features: ['Zwei Zapfhähne', 'Theke', 'Durchlaufkühler'],
+      image: "/images/vehicles/bierschankwagen-geschlossen.jpg",
       condition: 'Renoviert'
     }
   ];
