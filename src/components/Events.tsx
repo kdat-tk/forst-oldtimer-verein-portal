@@ -2,9 +2,6 @@ import { Calendar, MapPin, Clock, Users } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { useState } from 'react';
-import { useKeenSlider } from 'keen-slider/react';
-import 'keen-slider/keen-slider.min.css';
 
 import EventImageCarousel from '@/components/EventImageCarousel';
 
@@ -70,20 +67,6 @@ const Events = () => {
     }
   };
 
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [lightboxImages, setLightboxImages] = useState<string[]>([]);
-  const [lightboxIndex, setLightboxIndex] = useState(0);
-  
-  const [sliderRef] = useKeenSlider<HTMLDivElement>({
-    loop: true,
-    slides: { perView: 1 },
-  });
-  
-  const openLightbox = (images: string[], index: number) => {
-    setLightboxImages(images);
-    setLightboxIndex(index);
-    setLightboxOpen(true);
-  };
 
   return (
     <section id="events" className="py-20 bg-gradient-subtle">
@@ -182,14 +165,6 @@ const Events = () => {
                 </CardContent>
               </Card>
             ))}
-            {lightboxImages.length > 0 && (
-              <Lightbox
-                open={lightboxOpen}
-                close={() => setLightboxOpen(false)}
-                slides={lightboxImages.map((src) => ({ src }))}
-                index={lightboxIndex}
-              />
-            )}
           </div>
         </div>
       </div>
