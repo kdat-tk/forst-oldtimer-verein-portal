@@ -10,17 +10,18 @@ type Props = {
 
 export default function EventImageCarousel({ images }: Props) {
   const [emblaRef] = useEmblaCarousel({ loop: true });
-  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxToggler, setLightboxToggler] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
   const openLightbox = (index: number) => {
     setLightboxIndex(index);
-    setLightboxOpen(true);
+    setLightboxToggler(prev => !prev); // toggle notwendig!
   };
 
   return (
     <div className="mb-4">
-      <div ref={emblaRef} className="overflow-hidden">
+      {/* Embla Carousel */}
+      <div ref={emblaRef} className="overflow-hidden rounded">
         <div className="flex">
           {images.map((src, index) => (
             <img
@@ -34,11 +35,11 @@ export default function EventImageCarousel({ images }: Props) {
         </div>
       </div>
 
+      {/* Lightbox */}
       <FsLightbox
-        toggler={lightboxOpen}
+        toggler={lightboxToggler}
         sources={images}
         slide={lightboxIndex}
-        onClose={() => setLightboxOpen(false)}
       />
     </div>
   );
