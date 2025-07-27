@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-white/80 mb-6 max-w-md">
-              Wir sind ein Verein für Liebhaber klassischer Schleppet und Automobile. Bei uns steht die 
+              Wir sind ein Verein für Liebhaber klassischer Schlepper und Automobile. Bei uns steht die 
               Gemeinschaft und die Leidenschaft für historische Fahrzeuge im Mittelpunkt.
             </p>
             <div className="flex space-x-4">
