@@ -2,6 +2,8 @@ import { Calendar, MapPin, Clock, Users } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { parse, isAfter } from 'date-fns';
+import { de } from 'date-fns/locale';
 
 import EventImageCarousel from '@/components/EventImageCarousel';
 
@@ -28,6 +30,14 @@ const Events = () => {
       type: 'Treffen'
     }
   ];
+
+  const today = new Date();
+
+  // Filtere nur Events, deren Datum in der Zukunft liegt
+  const futureEvents = upcomingEvents.filter(event => {
+    const eventDate = parse(event.date, 'dd. MMMM yyyy', new Date(), { locale: de });
+    return isAfter(eventDate, today);
+  });
 
   const pastEvents = [
     {
@@ -88,7 +98,7 @@ const Events = () => {
             Kommende Events
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {upcomingEvents.map((event) => (
+            {futureEvents.map((event) => (
               <Card key={event.id} className="bg-gradient-card border-vintage-copper/20 shadow-card-vintage hover:shadow-vintage transition-all duration-300 group">
                 <CardHeader>
                   <div className="flex justify-between items-start mb-2">
