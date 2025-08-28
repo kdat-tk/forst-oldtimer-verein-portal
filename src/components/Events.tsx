@@ -28,7 +28,27 @@ const Events = () => {
       description: 'Zu unserem Sommerfest laden wir alle Mitglieder zu einem gemütlichen Abend bei Speiß und Trank ein.',
       attendees: 99,
       type: 'Treffen'
-    }
+    },
+    {
+      id: 5,
+      title: 'HAKO-Rennen',
+      date: '6. September 2025',
+      time: 'ganztägig',
+      location: 'Reiterplatz Weiher',
+      description: 'Ausschank lokaler Bierspezialitäten.',
+      attendees: 999,
+      type: 'Veranstaltung'
+    },
+    {
+      id: 6,
+      title: 'Adventszauber',
+      date: '29. November 2025',
+      time: 'ab 14:00 Uhr',
+      location: 'Platz am Hasenbrunnen',
+      description: 'Wir servieren wieder Glühwein, Winterbier, Chili con Carne und weitere Leckereien.',
+      attendees: 400,
+      type: 'Veranstaltung'
+    },
   ];
 
   const today = new Date();
@@ -72,7 +92,7 @@ const Events = () => {
     switch (type) {
       case 'Treffen': return 'bg-vintage-copper text-white';
       case 'Ausfahrt': return 'bg-vintage-gold text-vintage-brown';
-      case 'Ausstellung': return 'bg-vintage-leather text-white';
+      case 'Veranstaltung': return 'bg-vintage-leather text-white';
       default: return 'bg-vintage-copper text-white';
     }
   };
