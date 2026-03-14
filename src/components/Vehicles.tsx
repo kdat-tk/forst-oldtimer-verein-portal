@@ -38,6 +38,17 @@ const Vehicles = () => {
       condition: 'Restauriert'
     },
     {
+      id: 8,
+      name: 'Rolls Royce Silver Wraith II',
+      year: 1979,
+      owner: 'B. Geiger',
+      category: 'Klassiker',
+      description: 'Majestätischer Luxus auf vier Rädern – der Rolls-Royce Silver Wraith II von 1979.',
+      features: ['Rechtslenker', 'Geschwindigkeitsregelung', 'Eleganz'],
+      image: "/images/vehicles/rolls-royce-silver.jpg",
+      condition: 'Original'
+    },
+    {
       id: 4,
       name: 'Ausflugsanhänger',
       year: 1968,

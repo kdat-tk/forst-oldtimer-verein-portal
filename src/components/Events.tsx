@@ -49,6 +49,26 @@ const Events = () => {
       attendees: 400,
       type: 'Veranstaltung'
     },
+    {
+      id: 7,
+      title: 'Jahreshauptversammlung',
+      date: '27. März 2026',
+      time: '19:00 Uhr',
+      location: 'Henninger Stuben Forst',
+      description: 'Berichterstattung, Planung der nächsten gemeinsamen Aktivitäten und Wahlen.',
+      attendees: 99,
+      type: 'Treffen'
+    },
+    {
+      id: 8,
+      title: 'Stammtisch',
+      date: '10. April 2026',
+      time: 'ab 17:30 Uhr',
+      location: 'Henninger Stuben Forst',
+      description: 'Wöchtentlicher Stammtisch zum Erfahrungsaustausch unter Mitgliedern.',
+      attendees: 99,
+      type: 'Treffen'
+    },
   ];
 
   const today = new Date();
